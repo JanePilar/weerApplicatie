@@ -9,7 +9,7 @@ body {
    background-color: #f6f5f1;
    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
    margin: 40px auto;
-   max-width: 600px;
+   max-width: 777px;
    padding: 30px;
 }
 
@@ -28,6 +28,28 @@ body {
    margin-left: 5px;
    padding: 10px 20px;
    width: 15%;
+}
+
+.city-description {
+   text-align: center;
+}
+
+.city-description h1 {
+   margin-bottom: 5px;
+}
+
+.city-description p {
+   margin-top: 5px;
+}
+
+.icon {
+   text-align: center;
+   font-size: 77px;
+}
+
+.degrees {
+   font-size: 101px;
+
 }
 
 .weather-data {
