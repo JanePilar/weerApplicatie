@@ -30,6 +30,11 @@ body {
    width: 15%;
 }
 
+.weather-data {
+   display: flex;
+   justify-content: space-between;
+}
+
 footer {
    color: #5e5b54;
    padding: 20px 0;
