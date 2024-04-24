@@ -4,59 +4,71 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="src/style.css">
    <title>Weather app by JP</title>
 </head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+   href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+   rel="stylesheet">
 
 <body>
-   <form>
-      <input type="search" placeholder="Enter a city..." required />
-      <input type="submit" placeholder="search" />
-   </form>
 
-   <main>
-      <div>
-         <h1>
-            Antwerp
-         </h1>
+   <div class="app">
+
+      <form>
+         <input type="search" placeholder="Enter a city..." required />
+         <input type="submit" placeholder="search" />
+      </form>
+
+      <main>
+         <div>
+            <h1>
+               Antwerp
+            </h1>
+            <p>
+               sunny
+            </p>
+         </div>
+
          <p>
-            sunny
+            ☀️
          </p>
-      </div>
-
-      <p>
-         ☀️
-      </p>
 
 
-      <p>
-         20 °C
-      </p>
-
-      <div>
          <p>
-            Wind: 7,2 km/h
+            20 °C
+         </p>
+
+         <div>
+            <p>
+               Wind: 7,2 km/h
+               <br />
+               Humidity: 87%
+            </p>
+         </div>
+
+         <footer>
+            Monday
             <br />
-            Humidity: 87%
-         </p>
-      </div>
+            11:11
+         </footer>
+
+      </main>
+
+      <img src="https://i.pinimg.com/564x/18/40/de/1840dec45bb5a5194a69ae3736629722.jpg" alt="Design">
 
       <footer>
-         Monday
-         <br />
-         11:11
+         This website was created by
+         <a href="https://github.com/JanePilar" target="_blank">JP</a>
+         and is hosted on
+         <a href="https://github.com/JanePilar/weerApplicatie" target="_blank">Github</a>
+         &
+         <a href="https://jp-weerapplicatie.netlify.app/" target="_blank">Netlify</a>
       </footer>
 
-   </main>
-
-   <img src="https://i.pinimg.com/564x/18/40/de/1840dec45bb5a5194a69ae3736629722.jpg" alt="Design">
-   <footer>
-      This website was created by
-      <a href="https://github.com/JanePilar" target="_blank">JP</a>
-      and is hosted on
-      <a href="https://github.com/JanePilar/weerApplicatie" target="_blank">Github</a>
-      &
-      <a href="https://jp-weerapplicatie.netlify.app/" target="_blank">Netlify</a>
-   </footer>
+   </div>
 </body>
 
 </html>
