@@ -17,17 +17,17 @@
 
    <div class="app">
 
-      <form>
-         <input type="search" placeholder="Enter a city..." required class="search-input" />
+      <form class="search-form" id="search-form">
+         <input type="search" placeholder="Enter a city..." required class="search-input" id="search-form-input" />
          <input type="submit" placeholder="search" class="search-button" />
       </form>
 
       <main>
          <div class="city-description">
-            <h1 class="city">
+            <h1 class="city" id="city">
                Antwerp
             </h1>
-            <p>
+            <p class="description">
                SUNNY
             </p>
          </div>
@@ -44,6 +44,8 @@
 
             <p>
                Wind: 7,2 km/h
+               <br />
+               <br />
                <br />
                Humidity: 87%
             </p>
@@ -69,6 +71,7 @@
       </footer>
 
    </div>
+   <script src="src/index.js"></script>
 </body>
 
 </html>
