@@ -47,9 +47,6 @@ body {
    text-transform: uppercase;
 }
 
-.city-description p {
-   margin-top: 5px;
-}
 
 .icon {
    text-align: center;
@@ -57,19 +54,19 @@ body {
 }
 
 .degrees {
-   font-size: 101px;
-   text-align: left;
+   font-size: 88px;
 
 }
 
 .weather-data {
    display: flex;
    justify-content: space-between;
+   padding: 77px 3px;
 }
 
 footer {
    color: #5e5b54;
-   padding: 20px 0;
+   padding: 55px;
    text-align: center;
    font-size: 11px;
 }
