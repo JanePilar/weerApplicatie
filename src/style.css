@@ -36,8 +36,17 @@ body {
    width: 15%;
 }
 
+h1 {
+   color: #95a2b2;
+}
+
+
 .city-description {
    text-align: center;
+}
+
+.description {
+   color: #494e55;
 }
 
 .city-description h1 {
@@ -62,6 +71,15 @@ body {
    display: flex;
    justify-content: space-between;
    padding: 77px 3px;
+}
+
+.wind,
+.humidity {
+   font-weight: bolder;
+}
+
+p {
+   color: #95a2b2
 }
 
 footer {
