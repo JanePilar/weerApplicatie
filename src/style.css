@@ -15,8 +15,13 @@ body {
    background-color: #f6f5f1;
    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
    margin: 40px auto;
-   max-width: 777px;
+   max-height: 666px;
+   max-width: 888px;
    padding: 30px;
+}
+
+.search-form {
+   text-align: center;
 }
 
 .search-input {
@@ -42,6 +47,7 @@ h1 {
 
 
 .city-description {
+   padding-top: 60px;
    text-align: center;
 }
 
@@ -84,7 +90,6 @@ p {
 
 footer {
    color: #5e5b54;
-   padding: 55px;
    text-align: center;
    font-size: 11px;
 }
@@ -96,4 +101,9 @@ footer {
 
 .time {
    font-size: 18px;
+   padding-bottom: 15px;
+}
+
+.footer-text {
+   padding-bottom: 75px;
 }
