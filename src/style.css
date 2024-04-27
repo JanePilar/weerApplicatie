@@ -1,14 +1,14 @@
 * {
+   box-sizing: border-box;
    margin: 0;
    padding: 0;
-   box-sizing: border-box;
 }
 
 body {
    background-color: #edebe4;
    font-family: "Roboto", sans-serif;
-   font-weight: 100;
    font-style: normal;
+   font-weight: 100;
 }
 
 .app {
