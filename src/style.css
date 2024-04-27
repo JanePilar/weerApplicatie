@@ -64,6 +64,7 @@ h1 {
 
 
 .icon {
+   margin-bottom: -80px;
    text-align: center;
    font-size: 77px;
 }
@@ -87,11 +88,6 @@ p {
    color: #95a2b2
 }
 
-footer {
-   color: #66635a;
-   text-align: center;
-   font-size: 11px;
-}
 
 .weekday {
    font-size: 22px;
@@ -103,8 +99,15 @@ footer {
    font-size: 22px;
    padding-bottom: 15px;
    margin-top: -33px;
+
+}
+
+footer {
+   color: #66635a;
+   text-align: center;
+   font-size: 11px;
 }
 
 .footer-text {
-   padding-bottom: 75px;
+   padding: 55px;
 }
