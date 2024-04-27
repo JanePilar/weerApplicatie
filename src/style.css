@@ -52,7 +52,7 @@ h1 {
 }
 
 .description {
-   color: #494e55;
+   color: #c6ccd3;
 }
 
 .city-description h1 {
@@ -79,9 +79,8 @@ h1 {
    padding: 77px 3px;
 }
 
-.wind,
-.humidity {
-   font-weight: bold;
+.wind-humidity {
+   font-weight: bolder;
 }
 
 p {
@@ -89,7 +88,7 @@ p {
 }
 
 footer {
-   color: #5e5b54;
+   color: #66635a;
    text-align: center;
    font-size: 11px;
 }
@@ -100,8 +99,10 @@ footer {
 }
 
 .time {
-   font-size: 18px;
+   color: #c7ccd2;
+   font-size: 22px;
    padding-bottom: 15px;
+   margin-top: -33px;
 }
 
 .footer-text {
