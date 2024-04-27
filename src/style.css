@@ -63,10 +63,12 @@ h1 {
 }
 
 
-.icon {
+img {
    margin-bottom: -80px;
-   text-align: center;
-   font-size: 77px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 33px;
 }
 
 .degrees {
