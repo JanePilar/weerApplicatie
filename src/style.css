@@ -54,6 +54,7 @@ h1 {
 
 .description {
    color: #c6ccd3;
+   font-weight: bolder;
 }
 
 .city-description h1 {
@@ -89,23 +90,26 @@ img {
 }
 
 p {
-   color: #95a2b2
+   color: #95a2b2;
 }
 
+.time {
+   margin-top: -33px;
+   padding-bottom: 15px;
+   text-align: center;
+}
 
 .weekday {
-   color: #95a2b2;
+   color: #3d4248;
    font-size: 22px;
    padding-bottom: 8px;
    text-transform: uppercase;
 }
 
-.time {
-   color: #656b71;
-   font-size: 22px;
-   margin-top: -33px;
-   padding-bottom: 15px;
-   text-align: center;
+.hour {
+   color: #d7dadd;
+   font-weight: lighter;
+   margin-top: -10px;
 }
 
 .weather-forecast {
