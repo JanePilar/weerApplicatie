@@ -73,13 +73,13 @@ img {
 }
 
 .degrees {
-   font-size: 88px;
+   font-size: 77px;
 
 }
 
 .weather-data {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    padding: 77px 3px;
 }
 
@@ -108,7 +108,10 @@ p {
 
 .weather-forecast {
    margin-top: 20px;
+   display: flex;
+   justify-content: space-around;
    text-align: center;
+
 }
 
 .weather-forecast-date {
@@ -116,8 +119,26 @@ p {
    opacity: 0.5;
 }
 
-.weather-forecast-temperature {
+.weather-forecast-day {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.weather-forecast-icon {
+   margin-top: 10px;
+}
+
+.weather-forecast-temperatures {
+   color: #66635a;
    font-size: 14px;
+   margin-top: 10px;
+   justify-content: space-between;
+   gap: 8px;
+}
+
+.weather-forecast-temperature {
+   display: inline-block;
 }
 
 .weather-forecast-temperature-max {
