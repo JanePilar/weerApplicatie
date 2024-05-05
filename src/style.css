@@ -121,24 +121,21 @@ p {
 }
 
 .weather-forecast-date {
+   display: flex;
+   justify-content: space-around;
    font-size: 14px;
    opacity: 0.5;
 }
 
-.weather-forecast-day {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-
 .weather-forecast-icon {
-   margin-top: 10px;
+   margin-top: 11px;
+   text-align: center;
+   width: fit-content;
 }
 
 .weather-forecast-temperatures {
    color: #66635a;
    font-size: 14px;
-   margin-top: 10px;
    justify-content: space-between;
    gap: 8px;
 }
