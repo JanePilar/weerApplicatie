@@ -69,7 +69,7 @@ img {
    display: block;
    margin-left: auto;
    margin-right: auto;
-   size: 33px;
+   size: 55px;
 }
 
 
@@ -94,6 +94,7 @@ p {
 }
 
 .time {
+   color: #757f8c;
    margin-top: -33px;
    padding-bottom: 15px;
    text-align: center;
@@ -117,7 +118,6 @@ p {
    display: flex;
    justify-content: space-around;
    text-align: center;
-
 }
 
 .weather-forecast-date {
@@ -128,9 +128,8 @@ p {
 }
 
 .weather-forecast-icon {
-   margin-top: 11px;
    text-align: center;
-   width: fit-content;
+   padding: 11px;
 }
 
 .weather-forecast-temperatures {
